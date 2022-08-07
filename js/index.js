@@ -12,7 +12,7 @@ document.querySelector(".img2").setAttribute("src" ,diceImage2);
 if (randomNumber1>randomNumber2) {
     document.querySelector(".jsc").innerHTML = "Congratulations, Player1 Won!!!!!"
 }else if (randomNumber1===randomNumber2) {
-    document.querySelector(".jsc").innerHTML = "Its a tie, Please roll again!!!!!"
+    document.querySelector(".jsc").innerHTML = "Tie, Roll again!!! , Will you?"
 }else {
     document.querySelector(".jsc").innerHTML = "Congratulations, Player2 Won!!!!!"
 }
