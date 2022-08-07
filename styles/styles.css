@@ -25,11 +25,11 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat';
 }
 .p2{
   font-size: 1.5rem;
-  font-family: 'Montserrat';
+  
 }
 img {
   width: 80%;
@@ -42,9 +42,54 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width: 1080px) {
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .dice1 {
+    display: inline-block;
+    width: 35% ;
+    text-align: right;
+    margin: 3%;
+
+  }
+  .dice2 {
+    display: inline-block;
+    width: 35% ;
+    text-align: left;
+    margin: 3%;
+
+  }
+  p{
+    font-size: 1.5rem
+  }
+  .container1 {
+    width: 95%;
+  }
+  .divtxt1{
+    text-align: center;
+    padding-left: 45%;
+  }
+  .divtxt2{
+    text-align: center;
+    padding-right: 55%;
+  }
+}
+
+
+
+
+
+
+
+
+
 .BUTTON_YKF {
   background: #E91313;
-  background-image: -webkit-linear-gradient(top, #E91313, #631AE7);
+  background-image: -webkit-linear-gradient(top, #c73434, #7234e6);
   background-image: -moz-linear-gradient(top, #E91313, #631AE7);
   background-image: -ms-linear-gradient(top, #E91313, #631AE7);
   background-image: -o-linear-gradient(top, #E91313, #631AE7);
@@ -53,13 +98,13 @@ footer {
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: #fffb16;
-  font-family: Garamond;
-  font-size: 20px;
+  font-family: "Montserrat";
+  font-size: 1.8rem;
   font-weight: 100;
   padding: 10px;
   -webkit-box-shadow: 1px 1px 20px 0 #000000;
   -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
   text-shadow: 1px 1px 20px #000000;
   border: solid #337FED 1px;
   text-decoration: none;
