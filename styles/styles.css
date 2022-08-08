@@ -4,9 +4,19 @@
   text-align: center;
 }
 
-.dice {
-  text-align: center;
+
+.dice1 {
   display: inline-block;
+  width: 35% ;
+  text-align: right;
+  margin: 3%;
+
+}
+.dice2 {
+  display: inline-block;
+  width: 35% ;
+  text-align: left;
+  margin: 3%;
 
 }
 
