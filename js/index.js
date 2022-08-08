@@ -9,6 +9,7 @@ document.querySelector(".img2").setAttribute("src", diceImage2);
 
 
 
+
 if (randomNumber1 > randomNumber2) {
   document.querySelector(".jsc").innerHTML =
     "Congratulations, Player1 Won!!!!!";
