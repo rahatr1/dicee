@@ -11,11 +11,11 @@ document.querySelector(".img2").setAttribute("src", diceImage2);
 
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector(".jsc").innerHTML =
+  document.querySelector("h1").innerHTML =
     "Congratulations, Player1 Won!!!!!";
 } else if (randomNumber1 === randomNumber2) {
-  document.querySelector(".jsc").innerHTML = "Tie ,Roll again!";
+  document.querySelector("h1").innerHTML = "Tie ,Roll again!";
 } else {
-  document.querySelector(".jsc").innerHTML =
+  document.querySelector("h1").innerHTML =
     "Congratulations, Player2 Won!!!!!";
 }
