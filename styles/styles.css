@@ -54,30 +54,36 @@ footer {
 }
 
 @media (max-width: 1080px) {
+  h1{
+    font-size: 7rem;
+  }
 
   img {
-    width: 60%;
+    width: 70%;
     height: auto;
   }
   .dice1 {
     display: inline-block;
-    width: 35% ;
     text-align: right;
     margin: 3%;
 
   }
   .dice2 {
     display: inline-block;
-    width: 35% ;
     text-align: left;
     margin: 3%;
 
   }
+  .p2{
+    font-size: 2rem;
+  }
   p{
     font-size: 2rem;
+    font-family: 'Lobster', cursive;
   }
   .container1 {
     width: 100%;
+    
   }
   .divtxt1{
     text-align: center;
@@ -87,7 +93,9 @@ footer {
     text-align: center;
     padding-right: 50%;
   }
-  
+  .inputlink{
+    font-size: 4rem;
+  }
 }
 
 
@@ -116,7 +124,7 @@ footer {
   border-radius: 20px;
   color: #fffb16;
   font-family: "Montserrat";
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 100;
   padding: 10px;
   -webkit-box-shadow: 1px 1px 20px 0 #000000;
