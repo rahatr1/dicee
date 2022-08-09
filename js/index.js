@@ -14,10 +14,10 @@ document.getElementById('dicebtn').onclick = () => {
   var h1 = document.getElementById('h1');
 
   if(randomNumber1 > randomNumber2){
-    h1.innerHTML = "Player 1 Won";
+    h1.innerHTML = localStorage.getItem('user1') + " Won";
   } else if (randomNumber1 == randomNumber2){
     h1.innerHTML = "Tie, Roll Again";
   } else {
-    h1.innerHTML = "Player2 Won";
+    h1.innerHTML = localStorage.getItem('user2') + " Won";
   }
 }
