@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicee</title>
+</head>
+<body>
+  <div>
+    <label for="u1">Enter the name of user 1: </label>
+    <input type="text" id="u1">
+  </div>
+
+  <div>
+    <label for="u2">Enter the name of user 2: </label>
+    <input type="text" id="u2">
+  </div>
+
+  <div>
+    <button onclick="save_uname()">Submit</button>
+  </div>
+
+  <script>
+    function save_uname(){
+      var uname1 = document.getElementById('u1');
+      var uname2 = document.getElementById('u2');
+      
+      if(uname1.value.length==0){
+        alert("Username 1 is empty");
+      } else if (uname2.value.length==0){
+        alert("Username 2 is empty")
+      } else {
+        window.location.href = 'index.html';
+        var u1 = uname1.value;
+        var u2 = uname2.value;
+
+        localStorage.setItem('user1', u1);
+        localStorage.setItem('user2', u2);
+      }
+    }
+  </script>
+</body>
+</html>
