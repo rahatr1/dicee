@@ -91,8 +91,13 @@ footer {
 
 
 
-
-
+.inputlink{
+  text-decoration: none;
+  color: rgb(196, 124, 142);
+}
+.inputlink:hover{
+  color: hotpink;
+}
 
 
 
