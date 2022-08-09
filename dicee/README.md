@@ -1,3 +1,0 @@
-# dicee
-
-rahat polash
