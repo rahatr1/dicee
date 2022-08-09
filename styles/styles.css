@@ -54,6 +54,18 @@ footer {
 }
 
 @media (max-width: 1080px) {
+  
+  
+  html{
+    margin: 0%;
+    padding: 0%;
+
+  }
+  body{
+    margin: 0%;
+    padding: 0%;
+
+  }
   h1{
     font-size: 7rem;
   }
@@ -81,17 +93,16 @@ footer {
     font-size: 2rem;
     font-family: 'Lobster', cursive;
   }
-  .container1 {
+  .container1{
     width: 100%;
-    
   }
   .divtxt1{
     text-align: center;
-    padding-left: 40%;
+    padding-left: 30%;
   }
   .divtxt2{
     text-align: center;
-    padding-right: 50%;
+    padding-right: 40%;
   }
   .inputlink{
     font-size: 4rem;
