@@ -1,0 +1,138 @@
+.container1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.dice1 {
+  display: inline-block;
+  width: 35% ;
+  text-align: right;
+  margin: 3%;
+
+}
+.dice2 {
+  display: inline-block;
+  width: 35% ;
+  text-align: left;
+  margin: 3%;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Montserrat';
+}
+.p2{
+  font-size: 1.5rem;
+  
+}
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+@media (max-width: 1080px) {
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .dice1 {
+    display: inline-block;
+    width: 35% ;
+    text-align: right;
+    margin: 3%;
+
+  }
+  .dice2 {
+    display: inline-block;
+    width: 35% ;
+    text-align: left;
+    margin: 3%;
+
+  }
+  p{
+    font-size: 1.5rem
+  }
+  .container1 {
+    width: 95%;
+  }
+  .divtxt1{
+    text-align: center;
+    padding-left: 45%;
+  }
+  .divtxt2{
+    text-align: center;
+    padding-right: 55%;
+  }
+}
+
+
+
+
+
+
+
+
+
+.BUTTON_YKF {
+  background: #E91313;
+  background-image: -webkit-linear-gradient(top, #c73434, #7234e6);
+  background-image: -moz-linear-gradient(top, #E91313, #631AE7);
+  background-image: -ms-linear-gradient(top, #E91313, #631AE7);
+  background-image: -o-linear-gradient(top, #E91313, #631AE7);
+  background-image: -webkit-gradient(to bottom, #E91313, #631AE7);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #fffb16;
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_YKF:hover {
+  border: double #DD380D 1px;
+  background: #b4304c;
+  background-image: -webkit-linear-gradient(top, #3ae210, #3ddaf6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
