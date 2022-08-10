@@ -23,13 +23,12 @@ document.getElementById('dicebtn').onclick = () => {
   
 }
 
-
-
-var px = document.getElementById('px');
-  
+if (localStorage.length>0){
+  var px = document.getElementById('px');
   var py = document.getElementById('py');
+ px.innerHTML = localStorage.getItem('user1');
+  py.innerHTML = localStorage.getItem('user2');
   
-    px.innerHTML = localStorage.getItem('user1');
-    py.innerHTML = localStorage.getItem('user2');
+}
 
 onbeforeunload = function (e) { localStorage. clear(); };
