@@ -19,7 +19,14 @@
   margin: 3%;
 
 }
-
+.divtxt1{
+  text-align: center;
+  padding-left: 30%;
+}
+.divtxt2{
+  text-align: center;
+  padding-right: 40%;
+}
 body {
   background-color: #393E46;
 }
