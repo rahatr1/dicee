@@ -20,10 +20,11 @@ document.getElementById('dicebtn').onclick = () => {
   } else {
     h1.innerHTML = localStorage.getItem('user2') + " Won";
   }
-  var px = document.
+  
+}
+var px = document.
  getElementById('px');
   px.innerHTML = localStorage.getItem('user1');
   var py = document.
  getElementById('py');
   py.innerHTML = localStorage.getItem('user2');
-}
