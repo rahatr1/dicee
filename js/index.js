@@ -25,11 +25,9 @@ document.getElementById('dicebtn').onclick = () => {
 
 
 
-var px = document.
- getElementById('px');
+var px = document.getElementById('px');
   
-  var py = document.
- getElementById('py');
+  var py = document.getElementById('py');
   
     px.innerHTML = localStorage.getItem('user1');
     py.innerHTML = localStorage.getItem('user2');
