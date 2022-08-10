@@ -22,9 +22,16 @@ document.getElementById('dicebtn').onclick = () => {
   }
   
 }
+
+
+
 var px = document.
  getElementById('px');
-  px.innerHTML = localStorage.getItem('user1');
+  
   var py = document.
  getElementById('py');
-  py.innerHTML = localStorage.getItem('user2');
+  
+    px.innerHTML = localStorage.getItem('user1');
+    py.innerHTML = localStorage.getItem('user2');
+
+onbeforeunload = function (e) { localStorage. clear(); };
